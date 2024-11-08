@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 2rem;
+}
+
+header {
+    padding: 2rem;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: antiquewhite;    
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+input {
+    background: transparent;
+    color: antiquewhite;
+    width: 250px;
+    padding: 0.5rem;
+    margin-right: 16px;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    font-size: 16px;
+}
+
+button {
+    background-color: greenyellow;
+    color: black;
+    font-size: 14px;
+    font-style: italic;
+    text-transform: uppercase;
+    width: 130px;
+    cursor: pointer;
+    box-shadow: 0 0 15px greenyellow;
+    border: none;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+li {
+    color: antiquewhite;
+    margin-bottom: 16px;
+    font-size: 24px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.marcar-tarefa {
+    text-decoration: line-through;
+}
+
