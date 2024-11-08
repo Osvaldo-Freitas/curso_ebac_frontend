@@ -4,7 +4,6 @@ $(document).ready('form');
         e.preventDefault();
         const nomeNovaTarefa = $('#nova-tarefa').val();
         const novaTarefa = $('<li></li>');
-        const tarefaGrifada = $('.marcar-tarefa');
 
         $(`<span>${nomeNovaTarefa}</span>`).appendTo(novaTarefa);
         $(novaTarefa).appendTo('ul');
